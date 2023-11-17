@@ -1,10 +1,13 @@
 package chapter1.domain;
 
 /**
+ * 역할 : 리모콘으로부터 전달받은 신호를 적절히 처리해주어야함
+ *
  * 리모컨 객체로 부터 전원과 채널을 변경해달라는 메시지를 전달 받음
  * 자신의 필드의 값을 보고, 변경 여부를 결정하는 것은 TV 객체임
  */
 public class Tv {
+
     private static final Boolean ON = true;
     private static final Boolean OFF = false;
     private static final Integer MIN_CHANNEL = 0;

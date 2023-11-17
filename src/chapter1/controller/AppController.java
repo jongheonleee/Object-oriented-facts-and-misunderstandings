@@ -4,6 +4,10 @@ import chapter1.domain.RemoteControl;
 import chapter1.domain.Tv;
 import java.util.Scanner;
 
+/**
+ * 역할 : 애플리케이션의 흐름을 제어, 사용자의 입력값을 누가 처리해줄 것이며, 특정 작업을 어떤 객체들이 처리해줄지 판단을하는 것
+ *
+ */
 public class AppController {
     private final Scanner scanner;
     private final RemoteControl remoteControl;
