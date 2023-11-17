@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        RemoteControlImp2 remoteControl = new RemoteControlImp2();
+        RemoteControlImp1 remoteControl = new RemoteControlImp1();
         Tv tv = new Tv();
 
         AppController appController = new AppController(scanner, remoteControl, tv);
